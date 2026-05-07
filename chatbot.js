@@ -39,7 +39,7 @@
   const style = document.createElement('style');
   style.innerHTML = `
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
-  #chat-widget { position: fixed; bottom: 20px; right: 20px; width: 360px; height: 500px; border-radius: 16px; box-shadow: 0 6px 16px rgba(0,0,0,0.12); display: none; flex-direction: column; overflow: hidden; background: #fff; z-index: 9999; transition: all 0.3s ease; font-family: 'Inter', sans-serif; }
+  #chat-widget { position: fixed; bottom: 50px; right: 20px; width: 360px; height: 500px; border-radius: 16px; box-shadow: 0 6px 16px rgba(0,0,0,0.12); display: none; flex-direction: column; overflow: hidden; background: #fff; z-index: 9999; transition: all 0.3s ease; font-family: 'Inter', sans-serif; }
   #chat-widget.maximized { width: 80vw; height: 80vh; bottom: 10vh; right: 10vw; }
   #chat-header { background: linear-gradient(135deg, #0099ff, #00cc99); color: white; padding: 14px 18px; display: flex; justify-content: space-between; align-items: center; font-weight: 600; }
   #chat-header button { background: transparent; border: none; color: white; cursor: pointer; font-size: 18px; margin-left: 5px; }
@@ -50,7 +50,7 @@
   #chat-footer { border-top: 1px solid #ddd; display: flex; padding: 10px; background: white; }
   #chat-input { flex: 1; padding: 10px 12px; border: 1px solid #ccc; border-radius: 10px; outline: none; }
   #chat-send { background: #0099ff; color: white; border: none; margin-left: 8px; padding: 10px 18px; border-radius: 10px; cursor: pointer; }
-  #chat-bar { position: fixed; bottom: 20px; right: 20px; background: linear-gradient(135deg, #0099ff, #00cc99); color: white; border-radius: 30px; padding: 12px 20px; cursor: pointer; font-weight: 600; z-index: 10000; font-family: 'Inter', sans-serif; }
+  #chat-bar { position: fixed; bottom: 50px; right: 20px; background: linear-gradient(135deg, #0099ff, #00cc99); color: white; border-radius: 30px; padding: 12px 20px; cursor: pointer; font-weight: 600; z-index: 10000; font-family: 'Inter', sans-serif; }
   .chat-image { display: block; margin: 10px auto; max-width: 100%; border-radius: 8px; cursor: zoom-in; }
   @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
   .typing-dots span { display: inline-block; animation: blink 1.2s infinite; font-size: 20px; }
