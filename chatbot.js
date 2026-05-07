@@ -39,7 +39,7 @@
   const style = document.createElement('style');
   style.innerHTML = `
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
-  #chat-widget { position: fixed; bottom: 50px; right: 20px; width: 360px; height: 500px; border-radius: 16px; box-shadow: 0 6px 16px rgba(0,0,0,0.12); display: none; flex-direction: column; overflow: hidden; background: #fff; z-index: 9999; transition: all 0.3s ease; font-family: 'Inter', sans-serif; }
+  #chat-widget { position: fixed; bottom: 200px; right: 20px; width: 360px; height: 500px; border-radius: 16px; box-shadow: 0 6px 16px rgba(0,0,0,0.12); display: none; flex-direction: column; overflow: hidden; background: #fff; z-index: 9999; transition: all 0.3s ease; font-family: 'Inter', sans-serif; }
   #chat-widget.maximized { width: 80vw; height: 80vh; bottom: 10vh; right: 10vw; }
   #chat-header { background: linear-gradient(135deg, #0099ff, #00cc99); color: white; padding: 14px 18px; display: flex; justify-content: space-between; align-items: center; font-weight: 600; }
   #chat-header button { background: transparent; border: none; color: white; cursor: pointer; font-size: 18px; margin-left: 5px; }
